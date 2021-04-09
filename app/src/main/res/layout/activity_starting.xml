@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/blackish"
+   android:gravity="center_horizontal"
+    tools:context=".StartingActivity">
+
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cardo"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=" TIC-TAC-TOE  "
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/SlightlyWhite"
+
+        android:textSize="45sp" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X |     | O "
+        android:textSize="60sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/cardo"
+        android:textColor="@color/SlightlyWhite"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" | X |  "
+        android:textSize="60sp"
+        android:fontFamily="@font/cardo"
+        android:textColor="@color/SlightlyWhite"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O |     | X "
+        android:textSize="60sp"
+        android:fontFamily="@font/cardo"
+        android:textColor="@color/SlightlyWhite" />
+
+    <Button
+        android:id="@+id/letsplayBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boardbutton_style"
+        android:fontFamily="@font/cardo"
+        android:layout_marginTop="70dp"
+        android:padding="25dp"
+        android:text="LETS PLAY"
+        android:textSize="26sp" />
+
+</LinearLayout>
